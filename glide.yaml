@@ -6,3 +6,9 @@ import:
   version: cdf719fac0dd208251aa828e687c2d5802053b51
 - package: github.com/olekukonko/tablewriter
   version: febf2d34b54a69ce7530036c7503b1c9fbfdf0bb
+- package: github.com/pkg/errors
+  version: c605e284fe17294bda444b34710735b29d1a9d90
+- package: github.com/chewxy/gorgonia
+  version: 308144176bcb7bdb01e9fc31c9efb50a5d5593b5
+- package: github.com/chewxy/lingo/corpus
+  version: bccc72134e51ddcb372d98e8b83a5aebebf7bccc

@@ -1,16 +1,58 @@
-hash: ac0efe1fb218f866cf577b8813893383ee02683af3778e5a2df2ce067957360c
-updated: 2017-04-13T02:36:15.350690976+09:00
+hash: 23037b7d34a5cb8aa140a85a4980bd78d34f560b08541b38f667260fbfb3b12f
+updated: 2017-06-27T02:28:34.726463646+09:00
 imports:
+- name: github.com/chewxy/gorgonia
+  version: 308144176bcb7bdb01e9fc31c9efb50a5d5593b5
+  subpackages:
+  - tensor
+- name: github.com/chewxy/hm
+  version: b848cc4452055ea6549d5a273911d6542180a276
+- name: github.com/chewxy/lingo
+  version: bccc72134e51ddcb372d98e8b83a5aebebf7bccc
+  subpackages:
+  - corpus
+- name: github.com/chewxy/math32
+  version: d1e7b22839c693f54edf7811dd9487623abf2cd2
+- name: github.com/chewxy/vecf32
+  version: 5335e3d8a33adf327773c608457a27989e772a94
+- name: github.com/chewxy/vecf64
+  version: 231ecae139f45a3baa4314eb15a99914f0c7a501
+- name: github.com/gonum/blas
+  version: 430a98d0f42f5d7b9a9535580771233386034848
+  subpackages:
+  - blas64
+  - native
+  - native/internal/math32
+- name: github.com/gonum/floats
+  version: a2cbc5c70616cd18491ef2843231f6ce28b2cb02
+- name: github.com/gonum/internal
+  version: 4c20688f849035792bcee8a94ec93b5c277c919f
+  subpackages:
+  - asm/f32
+  - asm/f64
+- name: github.com/gonum/lapack
+  version: 219cfcc2cee77e21a618f07d65d14edbe4975c58
+  subpackages:
+  - lapack64
+  - native
+- name: github.com/gonum/matrix
+  version: ab9a12e575daf11d6836be8dc10f46fa4ad8684e
+  subpackages:
+  - mat64
 - name: github.com/inconshreveable/mousetrap
   version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
 - name: github.com/mattn/go-runewidth
   version: 14207d285c6c197daabb5c9793d63e7af9ab2d50
 - name: github.com/olekukonko/tablewriter
   version: febf2d34b54a69ce7530036c7503b1c9fbfdf0bb
+- name: github.com/pkg/errors
+  version: c605e284fe17294bda444b34710735b29d1a9d90
 - name: github.com/spf13/cobra
   version: ee4055870c2d5f7ce112642377e32c9929c3bbaf
 - name: github.com/spf13/pflag
   version: 9ff6c6923cfffbcd502984b8e0c80539a94968b7
+- name: github.com/xtgo/set
+  version: 4431f6b51265b1e0b76af4dafc09d6f12c2bdcd0
 - name: gopkg.in/cheggaaa/pb.v1
   version: cdf719fac0dd208251aa828e687c2d5802053b51
 testImports: []
